@@ -3,7 +3,7 @@
 def get_queries(report_date):
     queries={}
 #   provide your quiries here
-    queries['query1']=f'''
+    queries['query1(name-server-date)']=f'''
             select *
                 from table_name
                 where date='{report_date}' 
